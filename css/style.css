@@ -59,6 +59,11 @@ html, body {
   font-family: 'Poppins', sans-serif;
   overflow-x: hidden; }
 
+  @font-face {
+    font-family:'Paladise Bonus' ;
+    src: url(fonts/Paladise Script.ttf);
+  }
+
 .main-content {
   background: #fff;
   position: relative;
@@ -82,6 +87,7 @@ span, a, a:hover {
   text-decoration: none;
   color: inherit; }
 
+ 
 /* ====================== [ End Basics ] ====================== */
 /* ====================== [ 02 Start Helper Classes ] ====================== */
 .section-padding {
@@ -894,9 +900,12 @@ span, a, a:hover {
     color: #fff;
     opacity: 0;
     visibility: hidden;
-    -webkit-transition: opacity .5s, visibility .5s;
-    -o-transition: opacity .5s, visibility .5s;
-    transition: opacity .5s, visibility .5s; }
+    -webkit-transition: opacity .5s,
+ visibility .5s;
+    -o-transition: opacity .5s,
+ visibility .5s;
+    transition: opacity .5s,
+ visibility .5s; }
     .slider .parallax-slider .caption h1 .stroke {
       -webkit-text-stroke-width: 1px;
       -webkit-text-stroke-color: #fff;
@@ -1026,9 +1035,12 @@ span, a, a:hover {
     color: #fff;
     opacity: 0;
     visibility: hidden;
-    -webkit-transition: opacity .5s, visibility .5s;
-    -o-transition: opacity .5s, visibility .5s;
-    transition: opacity .5s, visibility .5s; }
+    -webkit-transition: opacity .5s,
+ visibility .5s;
+    -o-transition: opacity .5s,
+ visibility .5s;
+    transition: opacity .5s,
+ visibility .5s; }
     .slide-full .capt h1 .stroke {
       -webkit-text-stroke-width: 1px;
       -webkit-text-stroke-color: #fff;
@@ -1647,9 +1659,12 @@ span, a, a:hover {
       color: #fff;
       opacity: 0;
       visibility: hidden;
-      -webkit-transition: opacity .5s, visibility .5s;
-      -o-transition: opacity .5s, visibility .5s;
-      transition: opacity .5s, visibility .5s; }
+      -webkit-transition: opacity .5s,
+ visibility .5s;
+      -o-transition: opacity .5s,
+ visibility .5s;
+      transition: opacity .5s,
+ visibility .5s; }
       .slider-portfolio .swiper-slide .caption h1 .stroke {
         -webkit-text-stroke-width: 1px;
         -webkit-text-stroke-color: #fff;
